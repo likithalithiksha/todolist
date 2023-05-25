@@ -1,37 +1,66 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+html,
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     background-color: pink;
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-color:#f5e8ba;
 }
-.container{
-    display: flex;
-    justify-content: end;
-    align-items: end;
+
+#wrapper h2{
+    display:flex;
+    justify-content: center;
+    
 }
+
 h2{
-    margin-top: 20px;
+    color:#ffeba7;
+    letter-spacing: 1px;
 }
-hr{
-    border: 1px solid black;
-}
-.input{
-    width: 250px;
-    height: 30px;
+input{
     border-radius: 5px;
-    border:1px solid black;
+    border: 2px solid black ;
+    margin-top:30px;
+    height:34px;
+    width:250px;
+    padding-left:10px;
 }
-#add{
-    width: 100px;
-    height: 30px;
-    border:1px solid black;
-    border-radius: 5px;
-    box-shadow: none;
-    background-color: yellow;
+
+input:active{
+    border:none;
 }
+#wrapper{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    background-color:#1f2029;
+    border-radius:10px;
+    padding:30px;
+}
+
+button{
+    margin-top:20px;
+    background-color:#ffeba7;
+    border-radius: 4px;
+    height: 34px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: #102770;
+}
+
 button:hover{
-    cursor: pointer;
+    cursor:pointer;
+}
+#todoList{
+    color:white;
+    font-size:28px;  
+    margin-top:10px; 
+}
+
+#todoList p{
+  margin:10px 0px;
+}
+
+#todoList p:hover{
+  cursor: pointer;
 }
